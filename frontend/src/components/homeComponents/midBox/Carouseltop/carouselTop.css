@@ -1,0 +1,68 @@
+.CarouselTopBox{
+    height: 90px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.CircleTop{
+    height: 70px;
+    width: 70px;
+    margin: 0 12px 0 5px;
+    background: linear-gradient(35deg, #ffc200, #ff6f91, #db2ecf);
+    border-radius: 50%;
+    transition-duration: 0.8s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0;
+    padding: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btnLeftScroll{
+    position: absolute;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    top: 25%;
+    left: 18px;
+    font-size: 16px;
+    mix-blend-mode: screen !important;
+    background: white;
+    cursor: pointer;
+}
+
+.btnRightScroll{
+    position: absolute;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    top: 25%;
+    Right: 18px;
+    font-size: 16px;
+    z-index: 1.2;
+    mix-blend-mode: screen !important;
+    background: white;
+    cursor: pointer;
+}
+
+.storyProfImg{
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 66px;
+    width: 66px;
+    top: 2px;
+    left: 2px;
+    object-fit: cover;
+}
+
+.storyProfName{
+    font-size: 12px;
+    color: black;
+    Line-Height:16px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -40;
+    margin-left: 2px;
+}

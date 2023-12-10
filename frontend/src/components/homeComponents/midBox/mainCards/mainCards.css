@@ -1,0 +1,114 @@
+.cardsTop{
+    width: 75%;
+    margin: 3em auto;
+}
+
+.cardProfilehead{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 0 5px;
+    background: linear-gradient(35deg, #ffc200, #ff6f91, #db2ecf);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.cardBody{
+    box-shadow: 0.2px 0.2px 3px 0px rgba(24, 24, 24, 0.3);
+    margin-top: 20px;
+}
+
+.cardhead{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cardhead >p{
+    margin-left: 5px;
+    width: fit-content;
+}
+
+
+.cardProfImg{
+        border-radius: 50%;
+        border: 3px solid white;
+        height: 46px;
+        width: 46px;
+        top: 20px;
+        left: 2px;
+        object-fit: cover;
+        margin-right: 20px;
+}
+
+.cardProfName{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;   
+    font-weight:600;
+    Line-Height:18px;
+}
+
+.Dot{
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 18px;
+}
+
+.OptionIcon{
+    position: absolute;
+    width: fit-content;
+    right: 0;
+}
+
+.post{
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.bottomBox{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.bottomBox i{
+    width: fit-content;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+.moveRight{
+    position: absolute;
+    right: -20px;
+}
+
+.likePost{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 20px 0 10px 0;
+}
+
+.postbottomname{
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.postbottomname span{
+    font-weight: 600 !important;
+    margin-right:5px;
+}
+
+.viewComments{
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #737373;
+}

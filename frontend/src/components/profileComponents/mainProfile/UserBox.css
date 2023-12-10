@@ -1,0 +1,49 @@
+.userPost{
+    object-fit: contain;
+    height: 350px;
+}
+
+.PostsContainer{
+    width: 32.53%;
+    margin: 0.40%;
+    position: relative;
+    cursor: pointer;
+}
+
+.userPostsTop div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postCover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(24, 24, 24, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PostsContainer:hover .postCover{
+    opacity: 1;
+}
+
+.postCoverItems{
+    color: white;
+    display: flex;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.postCoverItems>i{
+    width: fit-content;
+    margin: 5px 8px 5px 22px;
+}

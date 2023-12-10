@@ -1,0 +1,62 @@
+.LeftTopBox{
+    width: 18%;
+    height: 100vh;
+}
+
+
+.Logo{
+    font-family: 'Dancing Script', 'cursive' !important;
+    font-weight: bolder;
+    width: 100%;
+    margin: 1em 0 0 1em;
+
+}
+
+.options{
+    display: flex;
+    height: 2.8em;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.options:hover{
+    border: none;
+    border-radius: 5px;
+}
+
+.IconDiv{
+    padding: 35px 20px 20px 30px;
+}
+
+.profleftImage{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.options i{
+    font-size:1.3em;
+    width: 30%;
+    text-align: left;
+}
+
+.LinkTag{
+    width: fit-content;
+}
+
+.LeftTopBox{
+    margin-top: 1.2em;
+}
+
+.options span,
+.options span .link{
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}

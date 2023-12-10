@@ -1,0 +1,128 @@
+.UpperReg{
+    display: flex;
+    justify-content: center;
+}
+
+.LoginBox{
+    height: 100vh;
+    width: 25em;
+    margin: 0 auto;
+}
+
+.LoginTopPart{
+    border: 1px solid rgb(212, 211, 211);
+    margin: 20px 0;
+    padding: 40px 50px;
+}
+
+.headingName{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Great Vibes', 'cursive';
+}
+
+.LoginBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 2.7em;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.LoginBtn i{
+    width: fit-content;
+    font-size: 18px;
+}
+
+.LoginBtn p{
+    width: fit-content;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.OrText{
+    transform: translate(135px,-21px);
+    padding: 8px;
+    width: fit-content;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.LoginInpBox{
+    height: 3em;
+    border-radius: 3px;
+    margin: 3px 0;
+    border: 1px solid rgb(212, 211, 211);
+    background-color: rgb(248, 245, 245);
+    outline: 0;
+    border: 0;
+    font-family: 'Poppins';
+    padding-inline-start: 10px;
+}
+
+.LoginInpBox:focus{
+    outline: 1px solid rgb(247, 246, 246);
+}
+
+.textBelowInputBox{
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.textBelowInputBox span{
+    color: darkblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.SubmitBtn{
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+    background-color: rgb(7, 173, 228) !important;
+    cursor: pointer;
+}
+
+.LoginBottomPart{
+    display: flex;
+    border: 1px solid rgb(212, 211, 211);
+    width: 25em;
+    padding: 30px 50px;
+}
+
+.LoginBottomPart p{
+    font-size: 14px;
+    margin: 0 8px;
+    text-align: center;
+}
+
+.LoginBottomPart span{
+    color: blue;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.getTheAppTitle{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.downloadLinks{
+    display: flex;
+    padding:1em 3em;
+}
+
+.downloadLinks img{
+    width: 46%;
+    margin: 2%;
+    cursor: pointer;
+}

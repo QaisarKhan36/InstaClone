@@ -1,0 +1,47 @@
+.mainOuter{
+    width: 88%;
+    margin: 0 auto;
+}
+
+.optionBar{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.optionbox{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px 0px;
+    margin:0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.optionWidget{
+    width: fit-content;
+    margin: 3px;
+    color: gray;
+}
+
+.optionbox>p{
+    margin-left: 5px;
+    color: gray;
+}
+
+.chosen{
+    border-top: 2px solid black;
+}
+
+.optionbox span{
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+    top: -2.2px;
+    left: 0;
+    background-color: black;
+}

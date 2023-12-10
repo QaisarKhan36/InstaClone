@@ -1,0 +1,14 @@
+/frontend/node_modules/
+node_modules/
+package.json/
+/frontend/package.json/
+/frontend/package-lock.json/
+/frontend/yarn.lock
+
+/backend/node_modules/
+/backend/package.json/
+/backend/package-lock.json/
+node_modules/
+package.json/
+
+README.md/
